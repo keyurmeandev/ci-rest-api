@@ -1,0 +1,68 @@
+Pending Issues
+--------------
+
+1. Player list is not loading immediately after login.
+  It must load on the first time we slide to that page. Also loader image should appear in the center of the page.
+2. Search input box : Remove extra bottom white border which shows and hide..
+3. Player list - mobile number is showing with +0924303426 - Remove old data
+4. Facebook login - everytime it is asking for mobile number which is incorrect. - Pending
+
+Issues resolved
+---------------
+
+1. Signup - Phone number validation - Done
+2. Login error message is still appearing - Done 
+3. My Profile - Show dynamic goal scored value - Done
+4. Final score & Log your goals buttons should not be clickable  before confirming the player list - Done
+5. Statistics page - Coming soon is not added in league tables button. - Done
+6. Invite players button in organise a game takes time to show the message.
+  sometimes which takes two webservice calls.
+7. Facebook login > Hide content and country code while showing the loader icon.
+8. Updating profile pic doesn't update the icon in Dashboard / Home page.
+9. Change text from update profile to a placeholder ( This is repeating) - Done
+10. Make header view same in my profile & update profile. - Done
+11. Redirect to next game page after organizing a game successfully. - Done
+12. Slight height difference in header in dashboard & chat page - Done
+13. Footer icons are small - Done
+14. Player list > Player profile page > Add to team option is missing. - Done
+15. Update profile - uploaded image rotate itself after uploading. - Done
+
+
+
+My profile page
+---------------
+Can we put a white border around the information box at the top?
+Query : Do you need it player's profile page as well 
+Omar: Yes
+
+Age field doesn't have a prompt like the other fields do
+Query : Do you mean the birthdate field ?
+Omar: The Age field in the profile page.
+
+There isn't any age field
+
+Organize a game.
+---------------
+Location - after choosing location, it splits name of place in half onto next line if too long
+Query – So how you want to display it..?
+Omar: I understand the locations will be long, but splitting the words in two doesn't look good. We need to display the location somehow without splitting the words.
+
+Keyur : so maybe I can cut some part of location and display it.
+
+
+Can't invite yourself to the game - Need to be able to do this for numbers, selecting teams etc
+Query - You mean I can't invite my self, right ?
+        Didn't get you for numbers & selecting teams
+Omar: Sorry? I don't understand your query.
+Keyur : I mean we will not able to invite us, right ?
+        but I am not able to get what you said below.
+        "Need to be able to do this for numbers, selecting teams etc".
+
+Select teams
+------------
+Brings up "my teams" page instead of bringing up a list of the 12 players who have accepted invite for game - We need to select two teams.
+
+Query - please explain it in detail.
+Omar: After you click on select teams, the next option should be to see the invited players and put them into separate teams. That isn't happening instead when you click on select teams, the my teams page appears.
+
+Thanks
